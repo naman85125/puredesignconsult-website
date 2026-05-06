@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Global partnership network illustration">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f6f5f2"/>
+
+  <!-- Subtle dotted background -->
+  <g fill="#dcd8d0">
+    <circle cx="100" cy="100" r="1.5"/>
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="300" cy="100" r="1.5"/>
+    <circle cx="400" cy="100" r="1.5"/>
+    <circle cx="500" cy="100" r="1.5"/>
+    <circle cx="600" cy="100" r="1.5"/>
+    <circle cx="700" cy="100" r="1.5"/>
+    <circle cx="800" cy="100" r="1.5"/>
+    <circle cx="900" cy="100" r="1.5"/>
+    <circle cx="1000" cy="100" r="1.5"/>
+    <circle cx="1100" cy="100" r="1.5"/>
+    <circle cx="100" cy="200" r="1.5"/>
+    <circle cx="200" cy="200" r="1.5"/>
+    <circle cx="300" cy="200" r="1.5"/>
+    <circle cx="400" cy="200" r="1.5"/>
+    <circle cx="500" cy="200" r="1.5"/>
+    <circle cx="600" cy="200" r="1.5"/>
+    <circle cx="700" cy="200" r="1.5"/>
+    <circle cx="800" cy="200" r="1.5"/>
+    <circle cx="900" cy="200" r="1.5"/>
+    <circle cx="1000" cy="200" r="1.5"/>
+    <circle cx="1100" cy="200" r="1.5"/>
+    <circle cx="100" cy="800" r="1.5"/>
+    <circle cx="200" cy="800" r="1.5"/>
+    <circle cx="300" cy="800" r="1.5"/>
+    <circle cx="400" cy="800" r="1.5"/>
+    <circle cx="500" cy="800" r="1.5"/>
+    <circle cx="600" cy="800" r="1.5"/>
+    <circle cx="700" cy="800" r="1.5"/>
+    <circle cx="800" cy="800" r="1.5"/>
+    <circle cx="900" cy="800" r="1.5"/>
+    <circle cx="1000" cy="800" r="1.5"/>
+    <circle cx="1100" cy="800" r="1.5"/>
+  </g>
+
+  <!-- World hint — abstract continent shapes -->
+  <g fill="#e8e4dc" stroke="#dcd8d0" stroke-width="1">
+    <!-- "Americas" -->
+    <path d="M150 320 Q170 290 200 295 Q230 305 240 340 Q250 380 230 420 Q200 460 180 480 Q150 500 140 470 Q120 420 130 380 Q135 340 150 320 Z"/>
+    <!-- "Europe/Africa" -->
+    <path d="M520 290 Q560 280 590 295 Q620 320 615 360 Q620 410 600 460 Q580 510 555 525 Q530 535 510 510 Q490 470 495 420 Q500 370 510 320 Q515 300 520 290 Z"/>
+    <!-- "Asia" -->
+    <path d="M780 280 Q840 270 900 290 Q960 310 990 350 Q1010 390 990 430 Q960 470 920 480 Q880 490 840 475 Q800 460 780 420 Q770 380 775 340 Q778 305 780 280 Z"/>
+    <!-- Australia hint -->
+    <path d="M930 540 Q960 535 985 545 Q1000 555 990 575 Q975 590 950 590 Q925 585 920 565 Q925 548 930 540 Z"/>
+  </g>
+
+  <!-- Connection lines (network of partnership) -->
+  <g stroke="#b8965a" stroke-width="1.5" fill="none" stroke-dasharray="4,4">
+    <!-- Hub (Orlando, FL) → factories -->
+    <path d="M195 400 Q400 200 600 350"/>
+    <path d="M195 400 Q500 250 870 360"/>
+    <path d="M195 400 Q600 600 920 410"/>
+    <path d="M195 400 Q450 580 555 470"/>
+    <path d="M555 470 Q700 550 870 440"/>
+    <path d="M870 360 Q900 470 950 555"/>
+  </g>
+
+  <!-- Hub node — center of operations (US) -->
+  <g transform="translate(195, 400)">
+    <circle r="32" fill="#0e0e0e"/>
+    <circle r="22" fill="none" stroke="#b8965a" stroke-width="2"/>
+    <circle r="6" fill="#b8965a"/>
+    <text y="60" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="13" font-weight="700" letter-spacing="1">PUREDESIGN</text>
+    <text y="78" text-anchor="middle" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="1.5">ORLANDO, FL</text>
+  </g>
+
+  <!-- Partner factory nodes -->
+  <g>
+    <!-- Factory 1 (China) -->
+    <g transform="translate(870, 360)">
+      <rect x="-22" y="-22" width="44" height="44" fill="#fff" stroke="#0e0e0e" stroke-width="2.5"/>
+      <path d="M-15 -10 L-15 -22 L15 -22 L15 -10 L22 -10 L22 22 L-22 22 L-22 -10 Z" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+      <line x1="-12" y1="0" x2="-4" y2="0" stroke="#0e0e0e" stroke-width="1.5"/>
+      <line x1="4" y1="0" x2="12" y2="0" stroke="#0e0e0e" stroke-width="1.5"/>
+      <line x1="-12" y1="10" x2="-4" y2="10" stroke="#0e0e0e" stroke-width="1.5"/>
+      <line x1="4" y1="10" x2="12" y2="10" stroke="#0e0e0e" stroke-width="1.5"/>
+      <circle cx="-14" cy="-16" r="3" fill="#b8965a"/>
+      <text y="44" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="11" font-weight="600">SHENZHEN</text>
+    </g>
+
+    <!-- Factory 2 (Vietnam) -->
+    <g transform="translate(920, 410)">
+      <rect x="-18" y="-18" width="36" height="36" fill="#fff" stroke="#0e0e0e" stroke-width="2.5"/>
+      <path d="M-10 -6 L-10 -18 L10 -18 L10 -6 L18 -6 L18 18 L-18 18 L-18 -6 Z" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+      <circle cx="-10" cy="-12" r="2.5" fill="#b8965a"/>
+      <text y="36" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="10" font-weight="600">HANOI</text>
+    </g>
+
+    <!-- Factory 3 (Taiwan) -->
+    <g transform="translate(950, 555)">
+      <rect x="-16" y="-16" width="32" height="32" fill="#fff" stroke="#0e0e0e" stroke-width="2.5"/>
+      <path d="M-8 -4 L-8 -16 L8 -16 L8 -4 L16 -4 L16 16 L-16 16 L-16 -4 Z" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+      <circle cx="-8" cy="-10" r="2" fill="#b8965a"/>
+      <text y="34" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="10" font-weight="600">TAIPEI</text>
+    </g>
+
+    <!-- Factory 4 (Europe) -->
+    <g transform="translate(555, 470)">
+      <rect x="-16" y="-16" width="32" height="32" fill="#fff" stroke="#0e0e0e" stroke-width="2.5"/>
+      <path d="M-8 -4 L-8 -16 L8 -16 L8 -4 L16 -4 L16 16 L-16 16 L-16 -4 Z" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+      <circle cx="-8" cy="-10" r="2" fill="#b8965a"/>
+      <text y="34" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="10" font-weight="600">MILAN</text>
+    </g>
+
+    <!-- Buyer node (US East coast) -->
+    <g transform="translate(600, 350)">
+      <circle r="14" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+      <circle r="6" fill="#0e0e0e"/>
+      <text y="32" text-anchor="middle" fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="10" font-weight="600">BRAND</text>
+    </g>
+  </g>
+
+  <!-- Stats / labels at bottom -->
+  <g transform="translate(0, 700)">
+    <line x1="80" y1="0" x2="1120" y2="0" stroke="#dcd8d0" stroke-width="1"/>
+    <g transform="translate(120, 30)">
+      <text fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="48" font-weight="800">100+</text>
+      <text y="64" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="2">VETTED FACTORIES</text>
+    </g>
+    <g transform="translate(420, 30)">
+      <text fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="48" font-weight="800">10+</text>
+      <text y="64" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="2">YEARS ON THE GROUND</text>
+    </g>
+    <g transform="translate(720, 30)">
+      <text fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="48" font-weight="800">4</text>
+      <text y="64" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="2">REGIONS</text>
+    </g>
+    <g transform="translate(900, 30)">
+      <text fill="#0e0e0e" font-family="'Helvetica Neue', sans-serif" font-size="48" font-weight="800">B2B</text>
+      <text y="64" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="2">SOURCING NETWORK</text>
+    </g>
+  </g>
+
+  <!-- Top label -->
+  <g>
+    <rect x="80" y="60" width="280" height="40" fill="#0e0e0e"/>
+    <text x="100" y="86" fill="#fff" font-family="'Helvetica Neue', sans-serif" font-size="14" letter-spacing="3" font-weight="600">PARTNERSHIP NETWORK</text>
+  </g>
+</svg>

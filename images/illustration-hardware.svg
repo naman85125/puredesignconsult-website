@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Hardware components illustration">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#0e0e0e"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#1f1f1f" stroke-width="1">
+    <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800 M0 500 H800 M0 600 H800 M0 700 H800 M0 800 H800 M0 900 H800"/>
+    <path d="M100 0 V1000 M200 0 V1000 M300 0 V1000 M400 0 V1000 M500 0 V1000 M600 0 V1000 M700 0 V1000"/>
+  </g>
+
+  <!-- Title plate (bottom right, like a technical drawing) -->
+  <g stroke="#b8965a" stroke-width="1.5" fill="none">
+    <rect x="540" y="900" width="240" height="80"/>
+    <line x1="540" y1="930" x2="780" y2="930"/>
+    <line x1="660" y1="900" x2="660" y2="980"/>
+  </g>
+  <text x="550" y="922" fill="#b8965a" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="2">PUREDESIGN — HARDWARE</text>
+  <text x="550" y="952" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="10" letter-spacing="1.5">SCALE 1:1</text>
+  <text x="670" y="952" fill="#888" font-family="'Helvetica Neue', sans-serif" font-size="10" letter-spacing="1.5">SHEET 01</text>
+
+  <!-- DRAWER SLIDE — center top -->
+  <g stroke="#e8e8e8" stroke-width="2.5" fill="none" transform="translate(120, 130)">
+    <!-- Outer rail -->
+    <rect x="0" y="0" width="560" height="36" rx="3"/>
+    <!-- Middle rail with cutouts -->
+    <rect x="20" y="8" width="520" height="20" rx="2"/>
+    <!-- Bearing dots pattern -->
+    <g fill="#b8965a" stroke="none">
+      <circle cx="50" cy="18" r="3"/>
+      <circle cx="90" cy="18" r="3"/>
+      <circle cx="130" cy="18" r="3"/>
+      <circle cx="170" cy="18" r="3"/>
+      <circle cx="210" cy="18" r="3"/>
+      <circle cx="250" cy="18" r="3"/>
+      <circle cx="290" cy="18" r="3"/>
+      <circle cx="330" cy="18" r="3"/>
+      <circle cx="370" cy="18" r="3"/>
+      <circle cx="410" cy="18" r="3"/>
+      <circle cx="450" cy="18" r="3"/>
+      <circle cx="490" cy="18" r="3"/>
+    </g>
+    <!-- Mounting screw holes -->
+    <circle cx="20" cy="18" r="4" stroke="#e8e8e8"/>
+    <circle cx="540" cy="18" r="4" stroke="#e8e8e8"/>
+    <!-- Dimension line above -->
+    <g stroke="#b8965a" stroke-width="1">
+      <line x1="0" y1="-20" x2="560" y2="-20"/>
+      <line x1="0" y1="-26" x2="0" y2="-14"/>
+      <line x1="560" y1="-26" x2="560" y2="-14"/>
+    </g>
+    <text x="270" y="-24" fill="#b8965a" font-family="'Helvetica Neue', sans-serif" font-size="11" letter-spacing="1.5">560 MM</text>
+  </g>
+
+  <!-- HINGE — middle left -->
+  <g stroke="#e8e8e8" stroke-width="2.5" fill="none" transform="translate(140, 320)">
+    <!-- Mounting plate -->
+    <rect x="0" y="20" width="80" height="70"/>
+    <circle cx="20" cy="40" r="5"/>
+    <circle cx="60" cy="40" r="5"/>
+    <circle cx="20" cy="70" r="5"/>
+    <circle cx="60" cy="70" r="5"/>
+    <!-- Hinge cup body (curve) -->
+    <path d="M80 30 Q120 30 130 55 Q120 80 80 80 Z" fill="#0e0e0e"/>
+    <circle cx="120" cy="55" r="18" fill="#0e0e0e"/>
+    <circle cx="120" cy="55" r="10" stroke="#b8965a"/>
+    <!-- Arm -->
+    <rect x="130" y="48" width="80" height="14"/>
+    <!-- Door plate -->
+    <rect x="200" y="20" width="80" height="70"/>
+    <circle cx="220" cy="40" r="5"/>
+    <circle cx="260" cy="40" r="5"/>
+    <circle cx="220" cy="70" r="5"/>
+    <circle cx="260" cy="70" r="5"/>
+  </g>
+
+  <!-- LEVER HANDLE — middle right -->
+  <g stroke="#e8e8e8" stroke-width="2.5" fill="none" transform="translate(500, 310)">
+    <!-- Rose plate -->
+    <circle cx="40" cy="60" r="34"/>
+    <circle cx="40" cy="60" r="22" stroke="#b8965a"/>
+    <circle cx="40" cy="60" r="6" fill="#b8965a" stroke="none"/>
+    <!-- Lever -->
+    <path d="M62 60 L180 60 Q200 60 200 78 L200 90"/>
+    <!-- Lever shadow line -->
+    <path d="M62 68 L180 68 Q190 68 190 76" stroke="#666"/>
+  </g>
+
+  <!-- DIMENSION ARROWS connecting elements -->
+  <g stroke="#444" stroke-width="1" stroke-dasharray="3,3" fill="none">
+    <line x1="120" y1="200" x2="680" y2="200"/>
+    <line x1="120" y1="350" x2="680" y2="350"/>
+    <line x1="120" y1="510" x2="680" y2="510"/>
+  </g>
+
+  <!-- SLIDING DOOR TRACK — bottom -->
+  <g stroke="#e8e8e8" stroke-width="2.5" fill="none" transform="translate(120, 580)">
+    <!-- Track body -->
+    <rect x="0" y="0" width="560" height="50"/>
+    <!-- Inner channel -->
+    <rect x="10" y="10" width="540" height="30"/>
+    <!-- Roller wheels -->
+    <g>
+      <circle cx="80" cy="25" r="14"/>
+      <circle cx="80" cy="25" r="6" fill="#b8965a" stroke="none"/>
+      <line x1="80" y1="25" x2="60" y2="25"/>
+      <line x1="80" y1="25" x2="100" y2="25"/>
+    </g>
+    <g>
+      <circle cx="480" cy="25" r="14"/>
+      <circle cx="480" cy="25" r="6" fill="#b8965a" stroke="none"/>
+      <line x1="480" y1="25" x2="460" y2="25"/>
+      <line x1="480" y1="25" x2="500" y2="25"/>
+    </g>
+    <!-- Mounting bolts -->
+    <circle cx="20" cy="25" r="3" stroke="#b8965a"/>
+    <circle cx="540" cy="25" r="3" stroke="#b8965a"/>
+  </g>
+
+  <!-- KNOB — bottom right corner detail -->
+  <g stroke="#e8e8e8" stroke-width="2.5" fill="none" transform="translate(450, 700)">
+    <circle cx="60" cy="60" r="40"/>
+    <circle cx="60" cy="60" r="30" stroke="#b8965a"/>
+    <circle cx="60" cy="60" r="14" fill="#b8965a" stroke="none"/>
+    <line x1="60" y1="20" x2="60" y2="0" stroke="#666"/>
+    <line x1="100" y1="60" x2="120" y2="60" stroke="#666"/>
+  </g>
+
+  <!-- EXPLODED ASSEMBLY arrows — bottom left -->
+  <g stroke="#b8965a" stroke-width="1.5" fill="#b8965a">
+    <g transform="translate(160, 760)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke-dasharray="4,3" fill="none"/>
+      <polygon points="-4,60 4,60 0,68"/>
+    </g>
+    <g transform="translate(220, 760)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke-dasharray="4,3" fill="none"/>
+      <polygon points="-4,60 4,60 0,68"/>
+    </g>
+    <g transform="translate(280, 760)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke-dasharray="4,3" fill="none"/>
+      <polygon points="-4,60 4,60 0,68"/>
+    </g>
+  </g>
+
+  <!-- Section label top left -->
+  <g fill="#b8965a">
+    <text x="40" y="60" font-family="'Helvetica Neue', sans-serif" font-size="14" letter-spacing="3" font-weight="600">DOOR &amp; FURNITURE HARDWARE</text>
+    <line x1="40" y1="72" x2="120" y2="72" stroke="#b8965a" stroke-width="2"/>
+  </g>
+</svg>
